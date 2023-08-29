@@ -1,0 +1,4 @@
+classes= 1
+train=/mnt/data1/sean/pp_configs/dataset_splits/sun_train.txt
+valid=/mnt/data1/sean/pp_configs/dataset_splits/sun_valid.txt
+names=./data/custom/classes.names
