@@ -2,11 +2,10 @@
 This repo is the implementation of
 ['YOLO-OB: An improved anchor-free real-time multi-scale colon polyp detector in colonoscopy']
 
-The deep learning-based object detection algorithm is currently one of the most effective methods for improving polyp detection. This repository proposes a new model called YOLO-OB based on YOLOv3. It improves network's feature fusion capacity by adopting the Spatial Pyramid Pooling (SPP) and the Bi-directional Feature Pyramid Network (BiFPN) modules. It also employs the ObjectBox detection head, which uses a center-based anchor-free box regression strategy that can detect polyps of different sizes on feature maps of any scale.
-
+The deep learning-based object detection algorithm is currently one of the most effective methods for improving polyp detection. A new model called YOLO-OB is proposed in this repository. Specifically, a bidirectional multiscale feature fusion structure, BiSPFPN, has been developed to enhance the feature fusion capability across different depths of a convolutional neural network. The ObjectBox detection head has been employed, which utilizes a center-based anchor-free box regression strategy to detect polyps of different sizes on feature maps of any scale.
 
 ### **1. Data Preparation**
-The study used the SUN dataset, which is publicly available, and our self-constructed dataset, named Union. Due to potential conflicts of interest, the Union dataset cannot be made publicly accessible. Nevertheless, interested readers can request access to the SUN dataset to conduct further experiments.
+The study used the SUN dataset, which is publicly available, and our self-collected dataset, named Union. Due to potential conflicts of interest, the Union dataset cannot be made publicly accessible. Nevertheless, interested readers can request access to the SUN dataset to conduct further experiments.
 
 
 
